@@ -1,0 +1,133 @@
+/*DEVELOPER: Jaime Espinoza, IS117-001, Fall, 2022 */
+.container3{
+    display: flex;
+    height: 85vh;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card-img-mid {
+    max-width: 70%;
+    min-width: 300px;
+    height: auto;
+}
+.card-img-top {
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    
+}
+
+.text{
+    width: 30%;
+}
+
+button {
+    float: right;
+    clear: left;
+}
+
+section {
+    width: 60%;
+    float: right;
+    padding: 10px 5% 0 2.5%;
+}
+section h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    padding-top: .5%;
+}
+aside {
+    width: 30%;
+    float: left;
+    padding: 20px 0 0 2%;
+}
+aside card {
+    padding: .25em 0;
+}
+.card-deck {
+    padding-top: 2%;
+}
+
+#carouselExampleIndicators{
+    height: 100%;
+  }
+
+.d-block{
+    width: auto;
+    height: 300px;
+    max-height: 400px;
+    margin: 2% auto;
+  }
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+
+
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators{
+  filter: invert(1);
+}
+
+#contact_form {
+    background-color: #bcdaf0;
+    display: block;
+    margin: auto;
+    width: 200%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#42c5ed;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#Aloe {
+    background-color: #D4F1F4;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#Spring {
+    background-color: #EDE3FF;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#Crispy {
+    background-color: #FFD68A;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+}
+#Kalanchoe {
+    background-color: #EDE3FF;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+}
+

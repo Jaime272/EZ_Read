@@ -1,0 +1,159 @@
+<!-- DEVELOPER: Jaime Espinoza, IS117-001, Fall 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EZ Read</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="row">
+        <nav class="navbar navbar-expand-md
+                justify-content-start
+                navbar-light
+                col-12" style="background-color: #42c5ed;">
+
+          <!-- Brand -->
+          <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="EZ Read"></a>
+          <!-- Responsive Button for the smaller menu -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <!-- Links -->
+              <li class="nav-item">
+                <a class="nav-link" href="new.html">NEW</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="popular.html">POPULAR</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  GENRE
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="thriller.html">Thriller</a>
+                  <a class="dropdown-item" href="sci.html">Sci - Fiction</a>
+                  <a class="dropdown-item" href="comedy.html">Comedy</a>
+                  <a class="dropdown-item" href="drama.html">Drama</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rating.html">RATING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+
+  <main>
+    <!-- Jumbotron  -->
+    <div class="jumbotron jumbotron-fluid" style="text-align: center">
+      <h1 class="display-4">Hey! You want to read something :)</h1>
+      <p class="lead">Explore my site, maybe you'll find something interesting to read!</p>
+      <p class="lead">
+        <a class="btn btn-outline-dark btn-lg" href="about.html" role="button">see more</a>
+      </p>
+    </div>
+    <!-- Info about LN -->
+    <div class="card-deck">
+      <div class="card border-light">
+        <img class="card-img-top" src="images/cover2.jpg" alt="Class Room of Elite">
+        <div class="card-body">
+          <h5 class="card-title text-center">Class Room of Elite</h5>
+          <p class="card-text">He finds out just how merit-based this education system is.
+            Koudo Ikusei Senior High School is a leading
+            prestigious school with state-of-the-art facilities where nearly 100% of students go on to
+            university or find employment. 
+          </p>
+          <a href="#" class="btn btn-dark stretched-link" target="_blank">Read Here.</a>
+        </div>
+      </div>
+      <div class="card border-light">
+        <img class="card-img-top" src="images/New2.jpg" alt="The Rising of the Hero">
+        <div class="card-body">
+          <h5 class="card-title text-center">The Rising of the Hero</h5>
+          <p class="card-text">A man equipped with only a shield is chosen to be one of the world's great defenders,
+             but when a cruel betrayal shatters his reputation, he tries to regain the 
+             public's trust while fighting evil alongside a few devoted allies.a cruel betrayal shatters
+              his reputation, he tries to regain the 
+             public's trust while fighting evil alongside a few devoted allies.</p>
+          <a href="#" class="btn btn-dark stretched-link" target="_blank">Read Here.</a>
+        </div>
+      </div>
+      <div class="card border-light">
+        <img class="card-img-top" src="images/new3.jpg" alt="Jobless Reincarnation">
+        <div class="card-body">
+          <h5 class="card-title text-center">Jobless Reincarnation</h5>
+          <p class="card-text">Mushoku Tensei: Jobless Reincarnation is a Japanese light novel series
+             by Rifujin na Magonote and illustrated by Shirotaka. </p>
+          <a href="#" class="btn btn-dark stretched-link" target="_blank">Read Here.</a>
+        </div>
+      </div>
+      <div class="card border-light">
+        <img class="card-img-top" src="images/New4.jpg" alt="Sword Art Online">
+        <div class="card-body">
+          <h5 class="card-title text-center">Sword Art Online</h5>
+          <p class="card-text">Sword Art Online is a Japanese light novel
+             series written by Reki Kawahara and illustrated by abec. 
+             The series takes place in the then-near future and focuses
+             Yuuki as they play through various virtual reality MMORPG worlds
+              </p>
+          <a href="#" class="btn btn-dark stretched-link" target="_blank">Read Here.</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer page-footer font-small ">
+    <div class="container">
+      <div class="row">
+        <span class="text-muted">&copy; Jaime Espinoza, 2022 | Terms Of Use | Privacy Statement</span>
+      </div>
+    </div>
+  </footer>
+  <!-- Javascript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Javascript Bundle with Popper 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>-->
+</body>
+
+
+</body>
+
+</html>
